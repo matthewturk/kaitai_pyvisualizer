@@ -1,0 +1,21 @@
+HexViewer {
+    layout: horizontal;
+}
+
+HexNavigator {
+    layout: vertical;
+    dock: left;
+    max-width: 40;
+}
+
+#position {
+    height: 3;
+}
+
+#hex_table {
+    dock: right;
+    width: 80;
+}
+
+#kaitai_tree {
+}
